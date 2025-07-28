@@ -22,9 +22,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     max-width: 80vw;
     margin: auto;
+    height: 86px;
 }
 
 .search-bar {
@@ -86,7 +88,7 @@ header {
 .menu-div .menu-opt {
     font-size: 12px;
     color: #8B96A5;
-    margin-right: 20px;
+    margin-left: 20px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -104,6 +106,56 @@ header {
 
 .menu-div .menu-opt a:hover {
     filter: brightness(0) saturate(100%) invert(27%) sepia(79%) saturate(3656%) hue-rotate(205deg) brightness(97%) contrast(101%);
+}
+
+
+
+
+nav{
+    width: 80vw;
+    height: 56px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+nav .nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 620px;
+    height: 100%;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #0D6EFD;
+}
+
+nav .nav-links a:first-child, nav .nav-links a:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .dropdown a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 10px;
+    margin-left: 10px;
 }
 
 
