@@ -34,8 +34,6 @@ This is a responsive front-end e-commerce website built using HTML, CSS, and Jav
 
 ![web-main](https://github.com/user-attachments/assets/034a50de-439a-4be3-a467-55c4d347e577)
 
-> _(You can add a screenshot or GIF of the website here later)_
-
 ## 📌 License
 
 This project is open source and available under the [MIT License](LICENSE).
