@@ -190,15 +190,16 @@ nav .dropdown a {
     font-size: 16px;
     padding: 10px;
     border-radius: 5px;
+    color: #505050;
 }
 
 .main-section .categories p:first-child {
     background-color: #E5F1FF;
+    color: black;
 }
 
 .main-section .categories p:hover {
-    background-color: #0D6EFD;
-    color: white;
+    color: #0D6EFD;
 }
 
 
@@ -224,6 +225,7 @@ nav .dropdown a {
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 .main-section .banner-text button:hover {
