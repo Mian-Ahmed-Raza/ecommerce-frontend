@@ -111,7 +111,7 @@ header {
 
 
 
-nav{
+nav {
     width: 80vw;
     height: 56px;
     margin: auto;
@@ -124,7 +124,7 @@ nav{
     border-bottom: 1px solid #E0E0E0;
 }
 
-nav .nav-links{
+nav .nav-links {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -137,19 +137,20 @@ nav a:hover {
     color: #0D6EFD;
 }
 
-nav .nav-links a:first-child, nav .nav-links a:last-child{
+nav .nav-links a:first-child,
+nav .nav-links a:last-child {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-nav .dropdown{
+nav .dropdown {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-nav .dropdown a{
+nav .dropdown a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,7 +184,7 @@ nav .dropdown a{
 }
 
 
-.main-section .categories p{
+.main-section .categories p {
     width: 100%;
     height: 40px;
     font-size: 16px;
@@ -191,30 +192,30 @@ nav .dropdown a{
     border-radius: 5px;
 }
 
-.main-section .categories p:first-child{
+.main-section .categories p:first-child {
     background-color: #E5F1FF;
 }
 
-.main-section .categories p:hover{
+.main-section .categories p:hover {
     background-color: #0D6EFD;
     color: white;
 }
 
 
-.main-section .banner{
+.main-section .banner {
 
     position: relative;
 
 }
 
-.main-section .banner .banner-text{
+.main-section .banner .banner-text {
     position: absolute;
     top: 30%;
     left: 25%;
     transform: translate(-50%, -50%);
 }
 
-.main-section .banner .banner-text button{
+.main-section .banner .banner-text button {
     width: 120px;
     height: 40px;
     border: none;
@@ -225,14 +226,14 @@ nav .dropdown a{
     cursor: pointer;
 }
 
-.main-section .banner-text button:hover{
+.main-section .banner-text button:hover {
     background-color: black;
     color: white;
     transform: scale(1.05);
     transition: 0.3s ease;
 }
 
-.main-section .user-promo{
+.main-section .user-promo {
     width: 200px;
     height: 360px;
     display: flex;
@@ -240,7 +241,7 @@ nav .dropdown a{
     justify-content: space-between;
 }
 
-.main-section .user-promo .user{
+.main-section .user-promo .user {
     width: 200px;
     height: 150px;
     background-color: #E3F0FF;
@@ -248,12 +249,12 @@ nav .dropdown a{
     border-radius: 5px;
 }
 
-.main-section .user-promo .user div{
+.main-section .user-promo .user div {
     display: flex;
-    
+
 }
 
-.main-section .user-promo .user button{
+.main-section .user-promo .user button {
     display: block;
     width: 100%;
     margin-top: 10px;
@@ -265,17 +266,17 @@ nav .dropdown a{
     cursor: pointer;
 }
 
-.main-section .user-promo .user button:hover{
+.main-section .user-promo .user button:hover {
     transform: scale(1.05);
     transition: 0.3s ease;
 }
 
-.main-section .user-promo .user button:first-of-type{
+.main-section .user-promo .user button:first-of-type {
     background-color: #0D6EFD;
     color: white;
 }
 
-.main-section .user-promo .promo{
+.main-section .user-promo .promo {
     width: 100%;
     height: 95px;
     padding: 15px;
@@ -284,13 +285,95 @@ nav .dropdown a{
     border-radius: 5px;
 }
 
-.main-section .user-promo .quote{
+.main-section .user-promo .quote {
     width: 100%;
     height: 95px;
     padding: 15px;
     background-color: #55BDC3;
     color: white;
     border-radius: 5px;
+}
+
+.sale-section {
+    width: 80vw;
+    height: 240px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+}
+
+.sale-section .deal{
+    padding: 20px;
+}
+
+.sale-section .deal h3 {
+    font-size: 20px;
+    color: #1c1c1c;
+}
+
+.sale-section .deal p {
+    font-size: 16px;
+    color: #8B96A5;
+}
+
+.sale-section .deal img {
+    margin-top: 20px;
+}
+
+.sale-section .sale-items{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.sale-section .sale-items .item{
+    height: 100%;
+    width: 179px;
+    border-left: 1px solid #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+    
+}
+
+.sale-section .sale-items .item:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease;
+    cursor: pointer;
+    border-left: none;
+}
+
+.sale-section .sale-items .item div{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale-section .sale-items .item p{
+    font-size: 16px;
+    color: #1c1c1c;
+    margin-top: 10px;
+}
+
+.sale-section .sale-items .item span{
+    font-size: 14px;
+    color: #EB001B;
+    margin-top: 5px;
+    background-color: #FFE3E3;
+    height: 28px;
+    width: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
 
 
@@ -440,7 +523,7 @@ li {
     color: #606060;
 }
 
-.bar-content .language{
+.bar-content .language {
     width: 107px;
     display: flex;
     justify-content: space-between;
