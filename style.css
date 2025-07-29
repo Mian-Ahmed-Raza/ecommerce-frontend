@@ -378,6 +378,101 @@ nav .dropdown a {
     border-radius: 50%;
 }
 
+.items-section{
+    width: 80vw;
+    height: 257px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 20px;
+}
+
+.items-section .left-aside{
+    width: 302px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+
+.items-section .left-aside img{
+    transform: scaleX(-1);
+    filter: brightness(0.9);
+}
+
+.items-section .left-aside div {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.items-section .left-aside h2 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.items-section .left-aside button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.items-section .left-aside button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.items-section .group{
+    display: grid;
+    grid-template-columns: repeat(4, 231px);
+    grid-template-rows: repeat(2, 127px);
+    background-color: white;
+}
+
+.items-section .group .group-item {
+    border-left: 1px solid #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+    position: relative;
+    padding: 20px 10px;
+    transition: transform 0.3s ease;
+}
+
+.items-section .group .group-item:hover {
+    transform: scale(1.1);
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.items-section .group .group-item img {
+    position: absolute;
+    top: 35%;
+    left: 65%;
+}
+
+.items-section .group .group-item h3 {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.items-section .group .group-item p {
+    font-size: 13px;
+    color: #8B96A5;
+}
 
 
 
