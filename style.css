@@ -500,7 +500,7 @@ nav .dropdown a {
     justify-content: space-between;
 }
 
-.inquiry-section .content .inquiry-info{
+.inquiry-section .content .inquiry-info {
     color: white;
     padding: 40px;
 }
@@ -515,7 +515,7 @@ nav .dropdown a {
     font-weight: 300;
 }
 
-.inquiry-section .content .inquiry-form{
+.inquiry-section .content .inquiry-form {
     width: 491px;
     height: 346px;
     margin: 40px;
@@ -531,7 +531,7 @@ nav .dropdown a {
     margin-bottom: 10px;
 }
 
-.inquiry-section .content .inquiry-form .item-name{
+.inquiry-section .content .inquiry-form .item-name {
     width: 440px;
     height: 40px;
     border: 1px solid #E0E0E0;
@@ -540,11 +540,11 @@ nav .dropdown a {
     margin-bottom: 15px;
 }
 
-.inquiry-section .content .inquiry-form .item-name::placeholder{
+.inquiry-section .content .inquiry-form .item-name::placeholder {
     color: black;
 }
 
-.inquiry-section .content .inquiry-form .item-details{
+.inquiry-section .content .inquiry-form .item-details {
     width: 440px;
     height: 73px;
     border: 1px solid #E0E0E0;
@@ -553,11 +553,11 @@ nav .dropdown a {
     margin-bottom: 15px;
 }
 
-.inquiry-section .content .inquiry-form .item-details::placeholder{
+.inquiry-section .content .inquiry-form .item-details::placeholder {
     font-family: "Inter", sans-serif;
 }
 
-.inquiry-section .content .inquiry-form .item-quantity{
+.inquiry-section .content .inquiry-form .item-quantity {
     width: 206px;
     height: 40px;
     border: 1px solid #E0E0E0;
@@ -566,7 +566,7 @@ nav .dropdown a {
     margin-bottom: 15px;
 }
 
-.inquiry-section .content .inquiry-form .item-pcs{
+.inquiry-section .content .inquiry-form .item-pcs {
     width: 111px;
     height: 40px;
     border: 1px solid #E0E0E0;
@@ -592,6 +592,64 @@ nav .dropdown a {
     transition: background-color 0.3s ease;
 }
 
+.recommended-section {
+    width: 80vw;
+    height: 696px;
+    margin: 20px auto;
+}
+
+.recommended-section h2 {
+    font-size: 24px;
+    color: #1c1c1c;
+    margin-bottom: 20px;
+}
+
+.recommended-section .recommended-items {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 220px);
+    grid-template-rows: repeat(2, 310px);
+    gap: 32px   ;
+}
+
+.recommended-section .recommended-items .item {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.recommended-section .recommended-items .item:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.recommended-section .recommended-items .img-box{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommended-section .recommended-items span{
+    font-size: 16px;
+    color: black;
+    margin-top: 15px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.recommended-section .recommended-items .item p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8B96A5;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
 
 
