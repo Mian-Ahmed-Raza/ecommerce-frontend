@@ -80,6 +80,11 @@ header {
     cursor: pointer;
 }
 
+.search-bar .search-btn:hover {
+    background-color: #0A58CA;
+    transition: background-color 0.3s ease;
+}
+
 .menu-div {
     display: flex;
     align-items: center;
@@ -580,6 +585,11 @@ nav .dropdown a {
     cursor: pointer;
     border-radius: 5px;
     display: inline-block;
+}
+
+.inquiry-section .content .inquiry-form button:hover {
+    background-color: #0A58CA;
+    transition: background-color 0.3s ease;
 }
 
 
