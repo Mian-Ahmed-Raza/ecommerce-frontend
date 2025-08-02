@@ -1,3 +1,5 @@
+/* ---------------------------Homepage CSS Stylesheet--------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -611,7 +613,7 @@ nav .dropdown a {
     display: grid;
     grid-template-columns: repeat(5, 220px);
     grid-template-rows: repeat(2, 310px);
-    gap: 32px   ;
+    gap: 32px;
 }
 
 .recommended-section .recommended-items .item {
@@ -628,7 +630,7 @@ nav .dropdown a {
     cursor: pointer;
 }
 
-.recommended-section .recommended-items .img-box{
+.recommended-section .recommended-items .img-box {
     width: 100%;
     height: 200px;
     display: flex;
@@ -636,7 +638,7 @@ nav .dropdown a {
     align-items: center;
 }
 
-.recommended-section .recommended-items span{
+.recommended-section .recommended-items span {
     font-size: 16px;
     color: black;
     margin-top: 15px;
@@ -659,13 +661,13 @@ nav .dropdown a {
     margin: 30px auto;
 }
 
-.services-section h2{
+.services-section h2 {
     font-size: 24px;
     color: #1c1c1c;
     margin-bottom: 20px;
 }
 
-.services-section .services-container{
+.services-section .services-container {
     width: 100%;
     height: 200px;
     display: flex;
@@ -673,7 +675,7 @@ nav .dropdown a {
     align-items: center;
 }
 
-.services-section .services-container .services{
+.services-section .services-container .services {
     width: 280px;
     height: 200px;
     border: 1px solid #E0E0E0;
@@ -689,13 +691,13 @@ nav .dropdown a {
     cursor: pointer;
 }
 
-.services-section .services-container .services .image{
+.services-section .services-container .services .image {
     width: 100%;
     height: 120px;
     position: relative;
 }
 
-.services-section .icons{
+.services-section .icons {
     width: 55px;
     height: 55px;
     position: absolute;
@@ -709,7 +711,7 @@ nav .dropdown a {
     left: 75%;
 }
 
-.services-container p{
+.services-container p {
     font-size: 16px;
     color: #1c1c1c;
     margin-top: 20px;
@@ -728,7 +730,7 @@ nav .dropdown a {
     margin-bottom: 30px;
 }
 
-.countries-section .countries-container{
+.countries-section .countries-container {
     width: 100%;
     height: 82px;
     display: grid;
@@ -736,7 +738,7 @@ nav .dropdown a {
     row-gap: 15px;
 }
 
-.countries-section .countries{
+.countries-section .countries {
     width: 221px;
     height: 36px;
     display: flex;
@@ -750,22 +752,18 @@ nav .dropdown a {
     cursor: pointer;
 }
 
-.countries-section .countries h3{
+.countries-section .countries h3 {
     font-size: 16px;
     color: #1c1c1c;
     margin-left: 10px;
     font-weight: 400;
 }
 
-.countries-section .countries p{
+.countries-section .countries p {
     font-size: 13px;
     color: #8B96A5;
     margin-left: 10px;
 }
-
-
-
-
 
 
 
@@ -916,4 +914,243 @@ li {
     width: 107px;
     display: flex;
     justify-content: space-between;
+}
+
+
+
+
+
+/* ---------------------------Product Page CSS Stylesheet--------------------------- */
+
+.p-main-section {
+    width: 80vw;
+    height: 580px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+}
+
+.p-main-section .p-images {
+    width: 380px;
+    height: 90%;
+}
+
+.p-main-section .p-images .p-main-image {
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+}
+
+.p-main-section .p-images .p-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-main-section .p-images .p-gallery .p-gallery-image {
+    width: 56px;
+    height: 56px;
+    border: 1px solid #E0E0E0;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.p-main-section .p-info {
+    width: 430px;
+    height: 514px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p-main-section .p-info .p-instock {
+    width: 84px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: #00B517;
+    margin-bottom: 10px;
+}
+
+.p-main-section .p-info h2 {
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.p-main-section .p-info .p-ratings {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #787A80;
+    margin-bottom: 10px;
+}
+
+.p-main-section .p-info .p-ratings img {
+    margin-right: 10px;
+}
+
+.p-main-section .p-info .p-ratings div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-main-section .p-info .p-prices {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #FFF0DF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.p-main-section .p-info .p-prices .p-price1 {
+    margin-left: 20px;
+}
+
+.p-main-section .p-info .p-prices .p-price2 {
+    border-left: 1px solid #BDC1C8;
+    padding: 10px;
+}
+
+.p-main-section .p-info .p-prices .p-price3 {
+    border-left: 1px solid #BDC1C8;
+    padding: 10px;
+}
+
+.p-main-section .p-info .p-prices p {
+    font-size: 13px;
+    color: #606060;
+}
+
+.p-main-section .p-info .p-text {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.p-main-section .p-info hr {
+    margin-bottom: 15px;
+    color: #E0E0E0;
+}
+
+.p-main-section .p-info .p-text p:first-child {
+    width: 120px;
+    color: #8B96A5;
+    font-size: 16px;
+}
+
+.p-main-section .p-info .p-text p:last-child {
+    color: #505050;
+
+}
+
+.p-main-section .p-seller-info {
+    width: 280px;
+    height: 325px;
+    border: 1px solid #DEE2E7;
+    border-radius: 10px;
+
+}
+
+.p-main-section .p-seller-info .p-seller {
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.p-main-section .p-seller-info hr {
+    width: 90%;
+    color: #DEE2E7;
+    margin-bottom: 20px;
+    align-self: center;
+    margin: auto;
+}
+
+.p-main-section .p-seller-info .p-seller span {
+    width: 48px;
+    height: 48px;
+    background-color: #C6F3F1;
+    color: #4CA7A799;
+    font-size: 28px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.p-main-section .p-seller-info .p-loc {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #8B96A5;
+    font-weight: 400;
+}
+
+.p-main-section .p-seller-info .p-ver {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #8B96A5;
+    font-weight: 400;
+}
+
+.p-main-section .p-seller-info .p-world{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: #8B96A5;
+    font-weight: 400;
+}
+
+.p-main-section .p-seller-info button:first-of-type{
+    width: 248px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+    margin: 10px auto;
+    color: white;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.p-main-section .p-seller-info button:last-of-type{
+    width: 248px;
+    height: 40px;
+    border: 1px solid #DEE2E7;
+    border-radius: 5px;
+    background: white;
+    color: #0D6EFD;
+    cursor: pointer;
+    margin-left: 15px;
 }
