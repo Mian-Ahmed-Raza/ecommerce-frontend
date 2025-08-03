@@ -930,6 +930,8 @@ li {
     justify-content: space-between;
     background-color: white;
     padding: 20px;
+    border: 1px solid #DEE2E7;
+    border-radius: 10px;
 }
 
 .p-main-section .p-images {
@@ -1153,4 +1155,121 @@ li {
     color: #0D6EFD;
     cursor: pointer;
     margin-left: 15px;
+}
+
+.p-details-section{
+    width: 80vw;
+    height: 618px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-details-section .p-details{
+    width: 880px;
+    height: 100%;
+    border: 1px solid #DEE2E7;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.p-details-section .p-details .p-nav{
+    width: 100%;
+    height: 48px;
+    border-bottom: 1px solid #DEE2E7;
+}
+
+.p-details-section .p-details .p-nav button{
+    height: 100%;
+    width: 130px;
+    margin: auto;
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    color: #8B96A5;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.p-details-section .p-details .p-nav button:first-of-type{
+    border-bottom: 2px solid #0D6EFD;
+    color: #0D6EFD;
+}
+
+.p-details-section .p-details .p-description{
+    margin: 20px;
+    color: #505050;
+    font-weight: 400;
+}
+
+.p-details-section .p-details .p-table{
+    margin-left: 20px;
+    color: #505050;
+}
+
+.p-details-section .p-details td{
+    width: 323px;
+    height: 36px;
+    border: 1px solid #DEE2E7;
+    padding: 10px;
+}
+
+.p-details-section .p-details td:first-of-type{
+    background-color: #EFF2F4;
+    width: 204px;
+}
+
+.p-details-section .p-details .p-features{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #505050;
+}
+
+.p-details-section .p-details .p-features li{
+    margin-bottom: 10px;
+}
+
+.p-details-section .p-details .p-features li::before{
+    content: url(assets/product-imgs/tick.svg);
+    color: grey;
+    margin-right: 5px;
+}
+
+.p-details-section .p-side-items{
+    width: 280px;
+    height: 553px;
+    border: 1px solid #DEE2E7;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.p-details-section .p-side-items h3{
+    font-weight: 600px;
+    color: #1c1c1c;
+    margin-bottom: 10px;
+}
+
+.p-details-section .p-side-items .p-item{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.p-details-section .p-side-items .p-item .p-image{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #DEE2E7;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-details-section .p-side-items .p-item p{
+    margin-bottom: 10px;
+}
+
+.p-details-section .p-side-items .p-item span{
+    color: #8B96A5;
 }
